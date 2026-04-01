@@ -40,7 +40,7 @@ const ServicesSection = () => {
               </div>
               <h3 className="text-lg font-bold font-display text-foreground mb-2">{s.title}</h3>
               <p className="text-sm text-muted-foreground mb-3">{s.desc}</p>
-              <span className="text-sm font-semibold text-primary">{s.price}</span>
+              <p className="text-sm font-semibold text-primary mt-1">{s.price}</p>
             </motion.div>
           ))}
         </div>
